@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['hogweed']
+
+roboflow:
+  workspace: borschevik
+  project: hogweed_768px-4x7hz-wrakx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/borschevik/hogweed_768px-4x7hz-wrakx/dataset/1
